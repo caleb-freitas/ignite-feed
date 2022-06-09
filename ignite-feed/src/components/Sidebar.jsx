@@ -4,12 +4,12 @@ import { PencilLine } from "phosphor-react"
 export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
-      <img className={styles.cover} src="https://images.unsplash.com/photo-1533644756484-bb7b29ac7fcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=50" />
+      <img className={styles.cover} src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWluaW1hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
 
       <div className={styles.profile}>
-        <img className={styles.avatar} src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" />
-        <strong>Maria Ferreira</strong>
-        <span>Designer</span>
+        <img className={styles.avatar} src="https://github.com/caleb-freitas.png" />
+        <strong>Caleb Freitas</strong>
+        <span>Software Developer</span>
       </div>
       <footer>
         <a href="#">
